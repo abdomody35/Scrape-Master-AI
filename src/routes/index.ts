@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
-import scrapeRouter from "@routes/scrape";
-import fetchRouter from "@routes/fetch";
-import historyRouter from "@routes/history";
-import { errorHandler, notFoundHandler } from "@middlewares/error";
+import scrapeRouter from "src/routes/scrape";
+import fetchRouter from "src/routes/fetch";
+import historyRouter from "src/routes/history";
+import { errorHandler, notFoundHandler } from "src/middlewares/error";
 const router = express.Router();
 
 router.get("/", async (req: Request, res: Response) => {

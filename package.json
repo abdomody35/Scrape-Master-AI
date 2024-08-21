@@ -39,15 +39,5 @@
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
-  },
-  "_moduleAliases": {
-    "@root": ".",
-    "@actions": "src/actions/",
-    "@utils": "src/utils",
-    "@db": "src/db",
-    "@controllers": "src/controllers",
-    "@routes": "src/routes",
-    "@middlewares": "src/middlewares",
-    "@schemas": "src/schemas"
   }
 }

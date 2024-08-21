@@ -1,21 +1,21 @@
 import axios from "axios";
-import { checkHttp, isAudio, isImage, isVideo, validateUrl } from "@utils/url";
-import { validateLists } from "@utils/list_checker";
+import { checkHttp, isAudio, isImage, isVideo, validateUrl } from "src/utils/url";
+import { validateLists } from "src/utils/list_checker";
 import {
   CrawlPagesProps,
   Data,
   ScrapePageProps,
   ScraperConfig,
   ScrapeWhiteListProps,
-} from "@root/src/types";
+} from "src/types";
 import {
   extractImages,
   dataFromPdf,
   dataFromHTML,
   extractVideos,
   extractAudio,
-} from "@controllers/scrape/data_extractor";
-import { handleLinks } from "@controllers/scrape/link_extractor";
+} from "src/controllers/scrape/data_extractor";
+import { handleLinks } from "src/controllers/scrape/link_extractor";
 
 const crawl = async (
   baseUrl: any,

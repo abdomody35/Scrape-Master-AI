@@ -1,5 +1,5 @@
 import express, { Request } from "express";
-import { fetchObjectFromS3 } from "@utils/db";
+import { fetchObjectFromS3 } from "src/utils/db";
 const router = express.Router();
 
 const bucketName = "test-bucket-518646354";
