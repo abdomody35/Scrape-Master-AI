@@ -1,6 +1,6 @@
 import axios from "axios";
-import { checkHttp, isAudio, isImage, isVideo, validateUrl } from "src/utils/url";
-import { validateLists } from "src/utils/list_checker";
+import { checkHttp, isAudio, isImage, isVideo, validateUrl } from "../../utils/url";
+import { validateLists } from "../../utils/list_checker";
 import {
   CrawlPagesProps,
   Data,

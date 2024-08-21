@@ -1,6 +1,6 @@
-import { Data } from "src/types";
-import { cleanup } from "src/utils/data_cleaner";
-import { checkHttp, checkRoute, validateUrl } from "src/utils/url";
+import { Data } from "../../types";
+import { cleanup } from "../../utils/data_cleaner";
+import { checkHttp, checkRoute, validateUrl } from "../../utils/url";
 import { load } from "cheerio";
 import { Page } from "puppeteer";
 import pdf from "pdf-parse";

@@ -1,6 +1,6 @@
-import { GetLinksProps, HandleLinksProps } from "src/types";
-import { checkRegex } from "src/utils/list_checker";
-import { validateUrl, checkRoute, checkHttp } from "src/utils/url";
+import { GetLinksProps, HandleLinksProps } from "../../types";
+import { checkRegex } from "../../utils/list_checker";
+import { validateUrl, checkRoute, checkHttp } from "../../utils/url";
 
 const isValidLink = (link: string, baseUrl: string) => {
   return (

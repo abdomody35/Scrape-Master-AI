@@ -1,10 +1,10 @@
 import express, { Request, Response } from "express";
-import { crawl } from "src/controllers/scrape/index";
-import { validateUrl } from "src/utils/url";
-import { saveToS3 } from "src/utils/db";
+import { crawl } from "../../controllers/scrape/index";
+import { validateUrl } from "../../utils/url";
+import { saveToS3 } from "../../utils/db";
 import puppeteer from "puppeteer";
-import { ReqBodyProps } from "src/types";
-import { validateRequest } from "src/utils/validation";
+import { ReqBodyProps } from "../../types";
+import { validateRequest } from "../../utils/validation";
 
 const router = express.Router();
 

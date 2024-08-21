@@ -1,4 +1,4 @@
-import { checkLists } from "src/utils/list_checker";
+import { checkLists } from "./list_checker";
 import { ValidateRequestProps } from "../types";
 
 function validateRequest({
