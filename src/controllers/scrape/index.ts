@@ -7,15 +7,15 @@ import {
   ScrapePageProps,
   ScraperConfig,
   ScrapeWhiteListProps,
-} from "src/types";
+} from "../../types";
 import {
   extractImages,
   dataFromPdf,
   dataFromHTML,
   extractVideos,
   extractAudio,
-} from "src/controllers/scrape/data_extractor";
-import { handleLinks } from "src/controllers/scrape/link_extractor";
+} from "../../controllers/scrape/data_extractor";
+import { handleLinks } from "../../controllers/scrape/link_extractor";
 
 const crawl = async (
   baseUrl: any,
